@@ -9,7 +9,7 @@
 
 2. Initialize manifests:
   ```
-  repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r1
+  repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r1 --depth=1
   git clone https://github.com/ayufan-pine64/local_manifests -b nougat .repo/local_manifests
   ```
 
