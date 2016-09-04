@@ -10,6 +10,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
@@ -25,6 +26,7 @@
   <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="packages/apps/Settings" name="packages-apps-Settings" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="packages/apps/TvSettings" name="packages-apps-TvSettings" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="system/bt" name="system-bt" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/core" name="system-core" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/netd" name="system-netd" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/sepolicy" name="system-sepolicy" remote="ayufan" revision="nougat" groups="pdk" />
