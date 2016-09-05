@@ -2,6 +2,7 @@
 <manifest>
   <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
 
+  <remove-project name="platform/build" />
   <remove-project name="platform/external/minijail" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -15,6 +16,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
 
+  <project path="build" name="build" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/av" name="frameworks-av" remote="ayufan" revision="nougat" groups="pdk" />
