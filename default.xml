@@ -16,7 +16,9 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
 
-  <project path="build" name="build" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="build" name="build" remote="ayufan" revision="nougat" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/av" name="frameworks-av" remote="ayufan" revision="nougat" groups="pdk" />
