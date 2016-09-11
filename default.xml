@@ -22,7 +22,7 @@
   <project path="build" name="build" remote="ayufan" revision="nougat" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.0" groups="pdk"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="ayufan" revision="nougat" groups="pdk"/>
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
   <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat" groups="pdk" />
