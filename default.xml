@@ -26,7 +26,7 @@
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
   <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="cm-13.0" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/av" name="frameworks-av" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/base" name="frameworks-base" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/native" name="frameworks-native" remote="ayufan" revision="nougat" groups="pdk" />
