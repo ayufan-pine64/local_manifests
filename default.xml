@@ -3,6 +3,7 @@
   <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
   <remote name="omnirom" fetch="https://github.com/omnirom" />
   <remote name="cm" fetch="https://github.com/CyanogenMod" />
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
 
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -40,5 +41,9 @@
   <project path="system/core" name="system-core" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/netd" name="system-netd" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/sepolicy" name="system-sepolicy" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="vendor/google" name="proprietary_vendor_google_atv" remote="ayufan" revision="master" groups="pdk" />
+  <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
+  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 </manifest>
