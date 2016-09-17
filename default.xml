@@ -20,30 +20,40 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
 
+  <!-- Device support -->
+  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
+  <project path="hardware/aw" name="hardware-aw" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
+
+  <!-- TWRP recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="ayufan" revision="nougat" groups="pdk"/>
+  <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
+
+  <!-- Required system fixes -->
   <project path="build" name="build" remote="ayufan" revision="nougat" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="ayufan" revision="nougat" groups="pdk"/>
-  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
   <project path="external/minijail" name="external-minijail" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/av" name="frameworks-av" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/base" name="frameworks-base" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/native" name="frameworks-native" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="frameworks/wilhelm" name="frameworks-wilhelm" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="hardware/aw" name="hardware-aw" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="hardware/libhardware" name="hardware-libhardware" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="packages/apps/Settings" name="packages-apps-Settings" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="packages/apps/TvSettings" name="packages-apps-TvSettings" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/bt" name="system-bt" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/core" name="system-core" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/netd" name="system-netd" remote="ayufan" revision="nougat" groups="pdk" />
   <project path="system/sepolicy" name="system-sepolicy" remote="ayufan" revision="nougat" groups="pdk" />
+
+  <!-- Google Apps support -->
   <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+
+  <!-- Longsleep kernel for Pine A64 -->
+  <project path="linux/kernel-tulip" name="linux-pine64" remote="ayufan" revision="master" groups="pdk" />
 </manifest>
