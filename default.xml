@@ -55,5 +55,5 @@
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
   <!-- Longsleep kernel for Pine A64 -->
-  <project path="linux/kernel-tulip" name="linux-pine64" remote="ayufan" revision="master" groups="pdk" />
+  <project path="linux/kernel-tulip" name="linux-3.10" remote="ayufan" revision="master" groups="pdk" />
 </manifest>
