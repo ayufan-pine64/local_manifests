@@ -56,6 +56,9 @@
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
+  <!-- SuperSU -->
+  <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan" />
+
   <!-- Longsleep kernel for Pine A64 -->
   <project path="linux/kernel-tulip" name="linux-3.10" remote="ayufan" revision="master" groups="pdk" />
 
