@@ -6,6 +6,7 @@
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
 
   <remove-project name="platform/build" />
+  <remove-project name="platform/external/sepolicy" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -27,6 +28,7 @@
   <project path="build" name="build" remote="ayufan" revision="marshmallow" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/sepolicy" name="external-sepolicy" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="frameworks/av" name="frameworks-av" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="frameworks/base" name="frameworks-base" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="frameworks/native" name="frameworks-native" remote="ayufan" revision="marshmallow" groups="pdk" />
