@@ -44,7 +44,7 @@
   <!-- Google Apps support -->
   <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="opengapps-all" clone-depth="1" revision="refs/tags/marshmallow" remote="ayufan" />
   <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
