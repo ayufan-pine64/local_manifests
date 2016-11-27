@@ -4,6 +4,7 @@
   <remote name="omnirom" fetch="https://github.com/omnirom" />
   <remote name="cm" fetch="https://github.com/CyanogenMod" />
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="google" fetch="https://github.com/google/"  />
 
   <remove-project name="platform/art" />
   <remove-project name="platform/cts" />
@@ -41,6 +42,7 @@
 
   <!-- Optional to support kati/ninja -->
   <project path="art" name="art" remote="ayufan" revision="marshmallow" groups="pdk" />
+  <project path="kati" name="kati" remote="google" revision="master" groups="pdk" />
 
   <!-- Google Apps support -->
   <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
