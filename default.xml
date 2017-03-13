@@ -19,10 +19,10 @@
   <remove-project name="platform/system/core" />
 
   <!-- Device support -->
-  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
-  <project path="hardware/aw" name="hardware-aw" remote="ayufan" revision="nougat" groups="pdk" />
-  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="nougat" groups="pdk" />
+  <project path="hardware/aw" name="hardware-aw" remote="ayufan" revision="marshmallow" groups="pdk" />
+  <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="marshmallow" groups="pdk" />
 
   <!-- TWRP recovery -->
   <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
