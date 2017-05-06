@@ -55,7 +55,7 @@
   <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan" />
 
   <!-- Longsleep kernel for Pine A64 -->
-  <project path="linux/kernel-tulip" name="linux-pine64" clone-depth="1" remote="ayufan" revision="my-hacks-1.2-with-new-disp2" groups="pdk" />
+  <project path="linux/kernel-tulip" name="linux-pine64" clone-depth="1" remote="ayufan" revision="my-hacks-1.2" groups="pdk" />
 
   <!-- Ethernet -->
   <project path="external/ethtool" name="android_external_ethtool" remote="ayufan" revision="s805_4.4.2_master" groups="pdk" />
