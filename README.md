@@ -1,4 +1,4 @@
-## How to compile Android 7.1 for Pine A64
+## How to compile Android 8.0 for Pine A64
 
 1. Checkout http://source.android.com/source/downloading.html
 1. Create a new directory:
@@ -9,8 +9,8 @@
 
 2. Initialize manifests:
   ```
-  repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.0_r7 --depth=1
-  git clone https://github.com/ayufan-pine64/local_manifests -b nougat-7.1 .repo/local_manifests
+  repo init -u https://android.googlesource.com/platform/manifest -b android-o-preview-2 --depth=1
+  git clone https://github.com/ayufan-pine64/local_manifests -b oreo .repo/local_manifests
   ```
 
 3. Checkout sources:
@@ -29,7 +29,7 @@
 
 5. Create SD card image:
   ```
-  sdcard_image pine64_android_7_1.img.gz
+  sdcard_image pine64_android_8.img.gz
   ```
 
 6. Write image to SD card with Rasplex Installer (this is multiplatform tool):
