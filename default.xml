@@ -15,6 +15,7 @@
   <remove-project name="platform/packages/apps/Provision" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- Device support -->
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="oreo" groups="pdk" />
@@ -39,6 +40,7 @@
   <project path="packages/apps/Provision" name="packages-apps-Provision" remote="ayufan" revision="oreo" groups="pdk" />
   <project path="system/bt" name="system-bt" remote="ayufan" revision="oreo" groups="pdk" />
   <project path="system/core" name="system-core" remote="ayufan" revision="oreo" groups="pdk" />
+  <project path="system/sepolicy" name="system-sepolicy" remote="ayufan" revision="oreo" groups="pdk" />
 
   <!-- Google Apps support -->
   <project path="vendor/google/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
