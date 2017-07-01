@@ -24,6 +24,7 @@
   <project path="hardware/realtek" name="hardware-realtek" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="vendor/ayufan-pine64/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
   <project path="vendor/ayufan-pine64/boot-tools" name="boot-tools" remote="ayufan" revision="master" groups="pdk" />
+  <project path="vendor/ayufan-pine64/apps" name="vendor-ayufan-apps" remote="ayufan" revision="master" groups="pdk" />
 
   <!-- TWRP recovery -->
   <project path="external/busybox" name="android_external_busybox" remote="ayufan" revision="nougat" groups="pdk" />
